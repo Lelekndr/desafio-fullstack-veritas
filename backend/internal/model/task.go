@@ -5,10 +5,10 @@ import (
 )
 
 type Task struct {
-    ID          string 	  `json:"id"`
-    Nome        string    `json:"nome"`
-    Descricao   string    `json:"descricao"`
-    DataCriacao time.Time `json:"data_criacao"`
-    Importancia string    `json:"importancia"`
-    Coluna      string    `json:"coluna"`
+	ID           string    `json:"id"`
+	Name         string    `json:"name"`
+	Description  string    `json:"description"`
+	DateCreation time.Time `json:"date_creation"`
+	Importance   string    `json:"importance"`
+	Column       string    `json:"column"`
 }
